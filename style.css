@@ -18,6 +18,10 @@ h1 {
   
 }
 
+.row {
+  display: flex;
+}
+
 .hero {
   padding: 200px;
   background-color: #23434A;
