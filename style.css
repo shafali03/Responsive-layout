@@ -43,6 +43,25 @@ h1 {
   width: 60%;
 }
 
+
+
+.three-col {
+  text-align: center;
+  padding: 3em 0;
+}
+
+.three-col h2 {
+  color: rebeccapurple;
+}
+
+.two-col {
+  text-align: center;
+  padding: 3em 0;
+  background: #136c72;
+  color: #fff;
+}
+
+
 .hero p {
   margin-bottom: 3em;
 }
