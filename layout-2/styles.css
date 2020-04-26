@@ -13,12 +13,26 @@ header {
   padding: 1em 0;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+  
+  flex-grow: 1;
+}
+
 .nav__list {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
+  align-items: center;
+  font-size: 0.8em;
 }
+
+.nav__list--primary {
+  margin: 0 auto;
+}
+
 
 .nav__item {
   margin-right: 1em;
@@ -28,7 +42,9 @@ li {
  list-style-type: none;
 }
 
-
+.nav__item + .nav__item {
+  margin-left: 1em;
+}
 
 .nav__link {
   margin: 0;
@@ -48,6 +64,10 @@ li {
 
 .nav__link:hover {
   opacity: .75;;
+}
+
+.logo {
+  margin-right: 1em;
 }
 
 img {
