@@ -8,6 +8,48 @@ body {
   font-size: 1.3rem;
 }
 
+header {
+  background: #136c72;
+  padding: 1em 0;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav__item {
+  margin-right: 1em;
+}
+
+li {
+ list-style-type: none;
+}
+
+
+
+.nav__link {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav__link--button {
+  background: #fff;
+  color: #136c72;
+  padding: .25em 1em;
+  border-radius: 10em;
+}
+
+.nav__link:hover {
+  opacity: .75;;
+}
+
 img {
   max-width: 100%;
 }
