@@ -26,13 +26,19 @@ padding: 4em 0;
 .container {
   width: 85%;
   margin: 0 auto;
+  max-width: 1128px;
 }
 
 .intro {
   background: #F3EED9;
-  padding: 200px 0;
   text-align: center;
   color:#824936;
+  min-height: 660px;
+
+  display: flex;
+  align-items: center;
+
+
 }
 
 .intro__text {
@@ -41,8 +47,42 @@ padding: 4em 0;
   font-size: 0.8em;
   color: #222C2A;
   margin: 0 0 .25em;
+
 }
 
 .intro__title {
-  font-size: 60px;
+  font-size: 3em;
+}
+
+.section-title--dark {
+  color: #824936;
+}
+
+.section-three {
+  background-color: #222C2A;
+  color: #fff;
+}
+
+.section-four {
+  background-color: #824936;
+  color: #fff;
+}
+
+
+@media (min-width: 800px) {
+  .row {
+    display: flex;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .col + .col {
+    margin-left: 5em;
+  }
+
+  .intro__title {
+    font-size: 3.75em;
+  }
 }
