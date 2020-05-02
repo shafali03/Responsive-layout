@@ -56,6 +56,24 @@ header {
     width: 100%;
 }
 
+.nav-toggle {
+    cursor: pointer;
+    border: 0;
+    width: 3em;
+    height: 3em;
+    padding: 0em;
+    border-radius: 50%;
+    background: #072A2D;
+    color: white;
+    transition: opacity 250ms ease;
+    position: absolute;
+    left: 0;
+}
+
+.nav-toggle:focus,
+.nav-toggle:hover {
+    opacity: .75;
+}
 
 
 .hamburger {
